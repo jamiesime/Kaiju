@@ -11,7 +11,7 @@ public class Onionsaur extends Kaiju {
     }
 
     public String roar() {
-        return "I am Onionsaur. I am a very good lizard.";
+        return "ONIONSAUR: I am Onionsaur. I am a very good lizard.";
     }
 
     public String move() {

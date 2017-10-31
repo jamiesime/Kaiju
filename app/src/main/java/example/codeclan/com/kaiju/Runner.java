@@ -14,6 +14,8 @@ public class Runner {
         Tricycle tricycle = new Tricycle("Rusty", 12);
         ImperviousTank tank = new ImperviousTank("Grace", 20000);
         onionsaur.startMsg();
+        onionsaur.roar();
+        tomatozilla.roar();
         onionsaur.attack(tank);
         tricycle.neoCannon(tomatozilla);
         tomatozilla.attack(tricycle);

@@ -11,7 +11,7 @@ public class Tomatozilla extends Kaiju {
     }
 
     public String roar() {
-        return "Onionsaur is a joke. I am Tomatosaur I mean Tomatozilla and I am the only good lizard.";
+        return "TOMATOZILLA: Onionsaur is a joke. I am Tomatosaur I mean Tomatozilla and I am the only good lizard.";
     }
 
     public String move() {
