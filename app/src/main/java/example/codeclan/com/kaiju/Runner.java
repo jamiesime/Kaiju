@@ -17,11 +17,13 @@ public class Runner {
         onionsaur.roar();
         tomatozilla.roar();
         onionsaur.attack(tank);
+        onionsaur.move();
         tricycle.neoCannon(tomatozilla);
         tomatozilla.attack(tricycle);
         tank.slowlyBumpInto(tomatozilla);
         tank.slowlyBumpInto(onionsaur);
         tank.slowlyBumpInto(tomatozilla);
+        tomatozilla.move();
     }
 
 

@@ -10,11 +10,11 @@ public class Onionsaur extends Kaiju {
         super(name, healthValue, attackValue);
     }
 
-    public String roar() {
-        return "ONIONSAUR: I am Onionsaur. I am a very good lizard.";
+    public void roar() {
+        System.out.println("ONIONSAUR: I am Onionsaur. I am a very good lizard.");
     }
 
-    public String move() {
-        return this.getName() + " stomped around and stank the place up.";
+    public void move() {
+        System.out.println(this.getName() + " stomped around and stank the place up.");
     }
 }
