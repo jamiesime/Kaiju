@@ -23,7 +23,7 @@ public abstract class Kaiju {
         int currentHealth = vehicle.getHealthValue();
         vehicle.setHealthValue(currentHealth -= attackValue);
         System.out.println(this.name + " attacked " + vehicle.getType() + " for " + attackValue);
-        System.out.println(vehicle.getType() + "now has " + vehicle.getHealthValue() + "health");
+        System.out.println(vehicle.getType() + " now has " + vehicle.getHealthValue() + " health.");
         if (vehicle.getHealthValue() < 0) {
             System.out.println(vehicle.getType() + " has been killed.");
         }
@@ -32,5 +32,23 @@ public abstract class Kaiju {
 
     public String getName() {
         return name;
+    }
+
+    public int getHealthValue() {
+        return healthValue;
+    }
+
+    public int getAttackValue() {
+        return attackValue;
+    }
+
+    public void setHealthValue(int healthValue) {
+        this.healthValue = healthValue;
+    }
+
+    public void startMsg(){
+        System.out.println("TWO GREAT FORCES ARE SET TO COLLIDE IN JIFF CITY");
+        System.out.println("REGARDLESS OF WHO IS THE VICTOR, COUNTLESS CITIZENS WILL BE SMASHED LIKE SO MANY PUNY ANTS");
+        System.out.println("LET THE ALTERCATION BEGIN.");
     }
 }
