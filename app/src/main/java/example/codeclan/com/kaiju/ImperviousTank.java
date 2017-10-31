@@ -11,7 +11,7 @@ public class ImperviousTank extends Vehicle {
     }
 
     public void slowlyBumpInto(Kaiju target){
-        System.out.println(getType() + " the Tank kind of rolls up again " + target.getName() + ", to no discernible effect.");
+        System.out.println(getType() + " the Tank kind of rolls up against " + target.getName() + ", to no discernible effect.");
         int damage = -1;
         target.setHealthValue(damage);
     }
